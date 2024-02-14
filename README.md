@@ -136,6 +136,5 @@ predict(lm_output2, newdata, type="response")
 ```
 <img width="95" alt="Screenshot 2024-02-13 at 9 29 30 PM" src="https://github.com/cp571/Predicting-Airbnb-Prices-in-Vancouver-BC/assets/157858508/344dfb25-fcf5-4ece-a0f7-8cd45db85adf">
 
-
-
+Note: We can use the exponential function exp() to convert it back to the original scale. For a 2-bedroom apartment that accommodates 4 people, a log price of 5.179181 converts to approximately $177.
 
