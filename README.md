@@ -1,4 +1,4 @@
-Data inspection and cleaning
+First step: Data inspection and cleaning
 ```
 # Load data
 airbnb <- read.csv('airbnb-vancouver-bc-listings.csv.bz2')
