@@ -118,7 +118,7 @@ Now we use the model above to predict (log) price for each listing in the data.
 ```
 # Predict (log) price for all listings in the data
 prediction <-predict(lm_output2)
-head(prediction
+head(prediction)
 ```
 <img width="464" alt="Screenshot 2024-02-13 at 9 27 35 PM" src="https://github.com/cp571/Predicting-Airbnb-Prices-in-Vancouver-BC/assets/157858508/9c7705c2-3c8d-4d9a-9625-f1525fa76230">
 
