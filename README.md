@@ -1,4 +1,4 @@
-First step: Data inspection and cleaning
+## Data Inspection and Cleaning
 ```
 # Load data
 airbnb <- read.csv('airbnb-vancouver-bc-listings.csv.bz2')
@@ -57,7 +57,7 @@ summary(airbnb_clean)
 <img width="558" alt="Screenshot 2024-02-13 at 8 54 05 PM" src="https://github.com/cp571/Predicting-Airbnb-Prices-in-Vancouver-BC/assets/157858508/6fa78a31-4140-470d-a700-ad3056be54b1">
 
 
-After data exploration and cleaning, we can start the analysis.
+## Data Analysis
 
 The price distribution does not resemble a normal distribution. 
 It has a long thin tail for Airbnb that are higher price, but the majority of listings are below $250. 
@@ -113,6 +113,8 @@ lm_output2 <- lm(log(price) ~ RtypeGroup + AccGroup, data=airbnb_clean)
 summary(lm_output2)
 ```
 <img width="616" alt="Screenshot 2024-02-13 at 9 25 03 PM" src="https://github.com/cp571/Predicting-Airbnb-Prices-in-Vancouver-BC/assets/157858508/2f5efa09-fb99-4164-8d61-7473cf522e8d">
+
+## Price Prediction
 
 Now we use the model above to predict (log) price for each listing in the data. 
 ```
